@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Weather Dataviz</title>
+  <title>Humidity</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -47,16 +47,15 @@
             <div class="col-sm-6 col-md-6">
                     <!-- left box -->
                 <div class="box">
-                    <h1 class="title">Summary: Latitude vs. X</h1>
+                    <h1 class="title">Humidity</h1>
                     <hr>
-                    <img src="Resources/assets/images/Fig1.png" align="left" class="responsive" alt="Max Temperature Graph">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-                      accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-                      500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                      Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-                      source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-                      any trends and correlations witnessed.</p>
+                    <img src="Resources/assets/images/Fig2.png" class="responsive-lg" alt="Max Temperature Image">
+                    <p>The level of humidity (ranging from 0-100%) is widely distributed along the Latitude axis.
+                        Cities in the northern hemisphere tend to be moderately humid, as shown by the clump of
+                        between 40-60 Deg Latitude that have a humidity range between 60-100%. There are also more
+                        cities with 100% humidity in the higher latitudes than there are on the lower latitudes,
+                        although this could be more indicative of number of cities from which this data was observed.
+                    </p>
                 </div>
             </div>
                   <!-- right box -->
